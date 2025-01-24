@@ -1,0 +1,18 @@
+.genderIcon{
+    height: 70px;
+}
+.genderIconColor{
+    filter: grayscale(100%);
+    
+}
+.card-width{
+    width: 40%;
+}
+#sign-up {
+    height: 100%;
+    width: 100%;
+}
+#sign-up div{
+    height: 100%;
+    
+}

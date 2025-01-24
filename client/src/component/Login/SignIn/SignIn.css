@@ -1,0 +1,15 @@
+#sign-in {
+    height: 100vh !important;
+    
+}
+
+
+.gray-400 {
+    background-color: rgb(237, 235, 235);
+}  
+legend {
+    font-weight: bold;
+    color: #333;
+    padding: 5px;
+    font-size: 1.2rem;
+  }

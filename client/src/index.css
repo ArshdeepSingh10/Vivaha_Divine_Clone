@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #fd5d5d; 
+    --secondary-color: #bbbd98; 
+  }
+.light-gray{
+  color: rgb(145, 144, 144);;
+}
+  .primary-red{
+    color: var(--primary-color);
+  }
+  .primary-red-bg{
+    background-color: var(--primary-color);
+  }
+  .dal-green{
+    background-color: var(--secondary-color);
+  }
+  .border-color{
+    border-color: var(--secondary-color) !important;
+  }
+  .empty-circle-icon-start {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 60%;
+  }
+  .empty-circle-icon-end {
+    position: absolute;
+    top: -4px;
+    right: -11px;
+    height: 10px;
+    width: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 60%;
+  }
+  legend {
+    font-weight: bold;
+    color: #333;
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+  
