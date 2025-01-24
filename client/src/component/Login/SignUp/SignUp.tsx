@@ -2,7 +2,7 @@ import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './SignUp.css'
+import './SignUp.css';
 const SignUp: React.FC = () => {
     const [selectedGender, setSelectedGender] = useState<String | null>(null)
     const handleRadioClick = (type: string) => {
